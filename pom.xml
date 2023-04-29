@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>top.p8r</groupId>
+    <artifactId>loong-server</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <description>各种Java后台技术栈套娃</description>
+    <url>https://github.com/xiaheshun/loong-server</url>
+
+    <scm>
+        <url>https://github.com/xiaheshun/loong-server</url>
+        <connection>scm:git:https://github.com/xiaheshun/loong-server.git</connection>
+        <developerConnection>scm:git:https://github.com/xiaheshun/loong-server.git</developerConnection>
+        <tag>v1.0.0</tag>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>MulanPSL-2.0</name>
+            <url>https://license.coscl.org.cn/MulanPSL2</url>
+            <distribution>Mulan Permissive Software License，Version 2</distribution>
+        </license>
+    </licenses>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <developers>
+        <developer>
+            <name>Dahe Xia</name>
+            <email>755320689@qq.com</email>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/xiaheshun/loong-server/issues</url>
+    </issueManagement>
+
+    <modules>
+
+    </modules>
+
+    <dependencyManagement>
+<!--        <dependencies>-->
+<!--            &lt;!&ndash; 全局版本控制 &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>top.p8r</groupId>-->
+<!--                <artifactId>loong-server</artifactId>-->
+<!--                <version>${project.version}</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+    </dependencyManagement>
+
+</project>
