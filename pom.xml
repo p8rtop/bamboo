@@ -8,7 +8,7 @@
     <artifactId>loong-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <description>各种Java后台技术栈套娃</description>
+    <description>东方服务架构</description>
     <url>https://github.com/xiaheshun/loong-server</url>
 
     <scm>
